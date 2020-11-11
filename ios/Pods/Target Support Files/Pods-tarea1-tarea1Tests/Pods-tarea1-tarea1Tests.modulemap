@@ -1,0 +1,6 @@
+module Pods_tarea1_tarea1Tests {
+  umbrella header "Pods-tarea1-tarea1Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

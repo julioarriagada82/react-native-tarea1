@@ -1,0 +1,44 @@
+# Default .gitignore by React: https://github.com/facebook/react/blob/master/.gitignore
+
+.DS_STORE
+node_modules
+scripts/flow/*/.flowconfig
+*~
+*.pyc
+.grunt
+_SpecRunner.html
+__benchmarks__
+build/
+remote-repo/
+coverage/
+.module-cache
+fixtures/dom/public/react-dom.js
+fixtures/dom/public/react.js
+test/the-files-to-test.generated.js
+*.log*
+chrome-user-data
+*.sublime-project
+*.sublime-workspace
+.idea
+*.iml
+.vscode
+*.swp
+*.swo
+
+env-config.js
+/public/env-config.js
+reports/
+cypress/videos/
+cypress/screenshots/
+.stryker-tmp
+
+# Snyk report files
+snyk_report.css
+snyk_report.html
+snyk-error.log
+snyk-result.json
+
+# SonarQube report files
+.scannerwork/
+.sonar/
+new-deploy.sh
